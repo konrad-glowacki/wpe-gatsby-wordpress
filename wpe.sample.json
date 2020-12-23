@@ -1,0 +1,17 @@
+{
+  "name": "wpe-gatsby-wordpress",
+  "repo": "konrad-glowacki/wpe-gatsby-wordpress",
+  "environments": [
+    {
+      "name": "development",
+      "branch": "main",
+      "wp_environment_name": "dynahead",
+      "env_variables": [
+        {
+          "key": "WPGRAPHQL_URL",
+          "value": "https://dynahead.wpengine.com/graphql"
+        }
+      ]
+    }
+  ]
+}
